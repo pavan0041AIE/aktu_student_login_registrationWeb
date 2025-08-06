@@ -1,0 +1,24 @@
+
+*{
+        margin: 0;
+        padding:0%;
+        height: 100%;
+        width: 100%;
+}
+#maindiv{
+        height: 100%;
+        width: 100%;
+        background-color: antiquewhite;
+        display: flex;
+        padding: 10%;
+}
+#div1{
+        height: 90%;
+        width: 40%;
+        background-color: blue;
+}
+#div2{
+        height: 80%;
+        width: 50%;
+        background-color: rgb(0, 255, 30);
+}

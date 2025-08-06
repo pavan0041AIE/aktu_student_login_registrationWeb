@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+  
+}
+#contener{
+    width: 80%;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 20px;
+    padding-top: 35px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0,0,0,0.5);
+   
+ 
+}
+#mainh{
+    height: 5%;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    color: crimson;
+    background-color: aquamarine;
+}
+#h:hover{
+    color: blue;
+}
+#form{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    background-color:mistyrose;
+    border: 5px;
+    border:black;
+    border-radius: 10px;
+}
+#fpart1{
+    width: 100%;
+    height: 38%;
+    padding-left: 20px;
+    line-height: 3;
+    background-color:lightgoldenrodyellow;
+    border-radius: 5px;
+}
+#fpart2{
+    width: 100%;
+    height: 25%;
+    line-height: 3;
+    background-color:lightgoldenrodyellow;
+    border-radius: 5px;
+}
+#fpart3{
+    width: 100%;
+    height: 8%;
+    line-height: 3;
+    background-color:lightgoldenrodyellow;
+    border-radius: 5px;
+}
+#bpage{
+    width: 100%;
+    height: 8%;
+    border: 2px;
+    border-radius: 5px;
+    background-color:lightcoral;
+    padding-top: 10px;
+}
+#elementb {float: left;}
+#elementr {float: right;}
+#elementb:hover {color: darkblue;}
+#elementr:hover {color: darkblue;}
+#home:hover {color: darkblue;}
+
+#id{
+    margin-right: 95px;
+    margin-left: 90px;
+}
+#email{
+    margin-right: 80px;
+    margin-left: 80px;   
+}
+#male{
+    margin-right: 30px;
+    margin-left: 100px;   
+}
+#female{
+    margin-right: 30px;
+    margin-left: 50px;   
+}
+#name1{
+    margin-right: 80px;
+    margin-left: 80px;   
+}
+#name2{
+    margin-right: 80px;
+    margin-left: 80px;   
+}
+#dob{
+    margin-right: 80px;
+    margin-left: 80px;   
+}
+#phonenumber{
+    margin-right: 80px;
+    margin-left: 80px;   
+}
+#fname1{
+    margin-right: 60px;
+    margin-left: 60px;   
+}
+#mname{
+    margin-right: 80px;
+    margin-left: 30px;   
+}
+#country{
+    margin-left: 110px;
+    margin-right: 140px;
+  }
+  #state{
+    margin-left: 90px;
+    margin-right: 40px;
+  }
+  #district{
+    margin-left: 80px;
+    margin-right: 50px;
+  }
+  #address{
+    margin-left: 70px;
+    margin-right: 60px;
+  }
+  #pin{
+    margin-left: 70px;
+    margin-right: 40px;
+  }
+  #number{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  #check{
+    margin-left: 10px;
+    margin-right: 20px;
+ }
+ #reset{
+    margin-left: 160px;
+    margin-right: 80px;
+ }
+ #submit{
+    margin-left: 80px;
+    margin-right: 20px;
+ }
+ #reset:hover{
+    color: darkblue;
+    background-color: aliceblue;
+}
+#submit:hover{
+    color: darkblue;
+    background-color: aliceblue;   
+}

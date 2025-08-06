@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKTU-Registrtion</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS85IZfSSK7NxfOMzrlg9XxGeMrtyB4iMGv9A&s">
+    <link rel="stylesheet" href="style5.css">
+    <style>
+        label {
+            width: 100px;
+        }
+        input{
+            display: inline-block;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="mainh">
+        <h1 id ="h">Dr.A.P.J.Abdul Kalam Technical University Uttar Pradesh, Lucknow </h1>
+        
+    </div>
+    
+    <div id="contener">
+        <form id="form">
+            <h2 id="hp">
+                Fill Personal Details:-
+            </h2>
+            <fieldset>
+                <legend style="text-align: left;"> Fill Personal Details:-</legend>
+            <div id="fpart1">
+                <label for="id">Student ID</label>
+                   <input type="password" placeholder="Enter Student ID" id="id" required>
+                   <label for="email">Email id</label>
+                   <input type="email" placeholder="Enter email id" id="email"><br>
+                   <label for="gender">Select Gender</label>
+                   <input type="radio" value="male" id="male" name="gender">
+                   <label for="male">Male</label>
+                   <input type="radio" value="female" id="female" name="gender">
+                   <label for="female">Female</label><br>
+                   <label for="name1" >First Name</label>
+                   <input type="text" placeholder="Enter First Name" id="name1">
+                   <label for="name2" >Last Name</label>
+                   <input type="text" placeholder="Enter last Name" id="name2"><br>
+                   <label for="dob">Date of Birth</label>
+                   <input type="date" placeholder="DD/MM/YYYY" id="dob">
+                   <label for="phonenumber">Contact Number:</label>
+                   <input type="number" placeholder="Enter Contact" id="phonenumber" > <br>
+                   <label for="fname">Father's Name</label>
+                   <input type="text" placeholder="Enter Father Name" id="fname1">
+                   <label for="mname" style="margin-right: 40px;">Mother's Name</label>
+                   <input type="text" placeholder="Enter Moteher Name" id="mname"><br>
+            </div><!--end fpart1-->
+        </fieldset>
+            <h2 id="ha">
+                Fill Address Details:-
+            </h2>
+            <div id="fpart2">
+                <label for="country">Country</label>
+               <select id="country">
+                   <option value="India">India</option>
+                   <option value="chaina">Chaina</option>
+                   <option value="Canada">Canada</option>
+                   <option value="USA">USA</option>
+                   <option value="Nepal"Canada>Nepal</option>
+                   <option value="Bangladesh">Bangaladesh</option>
+               </select>
+               <label for="state">Choose State</label>
+               <select id="state">
+                   <option value="Uttar Pradesh">Uttar Pradesh</option>
+                   <option value="Bihar">Bihar</option>
+                   <option value="Madhya Pradesh">Madhya Pradesh</option>
+                   <option value="Rajisthan">Rajisthan</option>
+               </select><br>
+               <label for ="district">District</label>
+               <input type="text" placeholder="Write District" id="district">
+               <label for ="address">Permanent  Address</label>
+               <input type="address" placeholder="Write Full Address" id="address"><br>
+               <label for="pin">Pin Code:</label>
+               <input type="number" placeholder="Enter Pin Code" id="pin">
+               <label for="number">Emergency Contact:</label>
+               <input type="number" placeholder="Enter Contact" id="number">
+            </div><!--end fpart2-->
+            
+            <h2 id="hd">Declaration:-</h2>
+            <div id="fpart3">
+                <input type="checkbox" id="check">
+               <label for="check"> I declared that I fill the All Details correctly </label>
+               <input type="reset" placeholder="Reset form" id="reset">
+               <input type="submit" id="submit">
+            </div><!--end fpart3-->
+            <h2 id="go">Where do you wont To Go ?</h2>
+            <div id="bpage">
+                <h2 id="elementb"> Return Back Page <a href="index1.html"><u>Click Here</u></a></h2>
+                <h2 id="elementr">For Login <a href="index3.html"><u>Click Here </u></a></h2>
+                <h2 id="home"> Home Page <a href="index1.html"><u>Click Here</u></a></h2>
+            </div>
+
+        </form><!--end form-->
+      
+    </div><!--end main container-->
+    <script src="script5.js"></script>
+</body>
+</html>

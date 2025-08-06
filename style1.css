@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(135, 222, 139);
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 10vh;
+    width: 100vw;
+    background-color: bisque;
+    color: black;
+    position: fixed;
+    
+    
+}
+#dheader{
+    height: 10vh;
+    width: 100vw;
+    background-color: bisque;   
+}
+#mainh{
+    text-align: center;
+    color: crimson;
+}
+#mainh:hover{
+    color: rgb(64, 8, 169);
+}
+#page1{
+    height: 90%;
+    width: 100%;
+    background-image: url('APJAKTU.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    -ms-layout-grid: 500px;
+}
+
+#part1{
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+   align-items: center;
+   text-align: center;
+}
+#part2{
+    height: 100%;
+    width: 50%;
+    float: right;
+   
+}
+.link{
+    color: brown;
+}
+.link:hover{
+    color: chartreuse;
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(221, 255, 0);
+}
+
+
+
